@@ -27,6 +27,12 @@ header {
    padding: 3px;
    border: yellowgreen solid 3px;
  }
+
+ article {
+   border: turquoise solid 3px;
+   margin: 3px;
+   padding: 3px;
+ }
  footer {
    margin: 3px;
    border: purple solid 3px;

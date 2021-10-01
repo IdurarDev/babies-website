@@ -37,10 +37,28 @@
          </ul> 
       </nav>
    </header>
-   <h1>Contact</h1>
+   <h1>Nous contactez</h1>
 
    <main>
-      
+      <form action="/form.html" method="post">
+         <label for="lastname">Nom: </label>
+         <input type="text" id="lastname" required>
+         <br>
+         <label for="username">Prénom: </label>
+         <input type="text" id="username" required>
+         <br>
+         <label for="email">Adresse Mail: </label>
+         <input type="email" id="email" required>
+         <br>
+         <label for="text">Adresse Postal: </label>
+         <input type="text" id="text" required>
+         <br>
+         <label for="area">Entrez un message complémentaire:</label><br>
+         <textarea name="area" id="area" cols="50" rows="5"></textarea>
+         <br>
+         <br>
+         <button type="submit">Validez</button>
+      </form>
    </main>
 
    <footer>
