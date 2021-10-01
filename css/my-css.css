@@ -1,0 +1,28 @@
+/*****************
+*************** 
+        MY CSS 
+************
+***********/
+
+header {
+   margin: 3px;
+   border: red solid 3px;
+ }
+ 
+ img {
+   border: black solid 2px;
+ }
+ main {
+   margin: 3px;
+   border: green solid 3px;
+ }
+ 
+ section {
+   margin: 5px;
+   border: blue solid 3px;
+ }
+ 
+ footer {
+   margin: 3px;
+   border: purple solid 3px;
+ }
